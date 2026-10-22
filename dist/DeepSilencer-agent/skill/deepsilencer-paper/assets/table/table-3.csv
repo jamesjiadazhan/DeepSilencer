@@ -1,0 +1,10 @@
+Methods,AUC,F1 score
+OligoWalk,0.708,0.6258
+siRNAPred,0.578,0.525
+i-Score,0.746,0.219
+DSIR,0.748,0.693
+OligoFormer(siRNA+mRNA+RNAFM+TR),0.815,0.769
+OligoFormer(siRNA),0.787,0.742
+OligoFormer(siRNA+TR),0.793,0.751
+DeepSilencer(siRNA),0.802,0.760
+DeepSilencer(siRNA+TR),0.820,0.775

@@ -1,0 +1,25 @@
+Parameter,Description,Feature Contribution
+ΔΔG°_ends,End free energy difference,0.264
+ΔG°_1,Free energy change of the first base pair,0.039
+ΔH°_1,Enthalpy change of the first base pair,0.018
+U_1,Uracil content of the first base pair,0.023
+G_1,Guanine content of the first base pair,0.003
+ΔH°_all,Total enthalpy change of all base pairs,0.218
+U_all,Total uracil content of all base pairs,0.052
+UU_1,Uracil content of the first base pair and its neighbors,0.003
+G_all,Total guanine content of all base pairs,0.054
+GG_1,Guanine content of the first base pair and its neighbors,0.002
+GC_1,Guanine and cytosine content of the first base pair,0.001
+GG_all,Total guanine content of all base pairs,0.033
+ΔG°_2,Free energy change of the second base pair,0.046
+UA_all,Total uracil and adenine content of all base pairs,0.022
+U_2,Uracil content of the second base pair,0.007
+C_1,Cytosine content of the first base pair,0.004
+CC_all,Total cytosine content of all base pairs,0.033
+ΔG°_18,Free energy change of the eighteenth base pair,0.037
+CC_1,Cytosine content of the first base pair and its neighbors,0.004
+GC_all,Total guanine and cytosine content of all base pairs,0.031
+CG_1,Cytosine and guanine content of the first base pair,0.007
+ΔG°_13,Free energy change of the thirteenth base pair,0.051
+UU_all,Total uracil content of all base pairs,0.028
+A_19,Adenine content of the nineteenth base pair,0.013
