@@ -1,0 +1,374 @@
+{
+  "success": true,
+  "agent_id": "/root/source_scan",
+  "role": "independent_delivery_verifier",
+  "finished_at": "2026-10-22T11:32:53.887118Z",
+  "scope": "Portable reviewed reading package integrity and entry point after fresh extraction; no scientific replication or model/MCP execution.",
+  "archive": "dist/DeepSilencer-agent.zip",
+  "archive_sha256": "50a9d5ae4ce961a8ff4441b211c35aa91661bd62f77adba7bbaf4d145fa3e4ac",
+  "archive_bytes": 781653,
+  "fresh_extraction_path": "/tmp/deepsilencer-independent-delivery-x4rto8ez",
+  "package_root": "/tmp/deepsilencer-independent-delivery-x4rto8ez/DeepSilencer-agent",
+  "inventory": {
+    "expected_skill_files": 23,
+    "actual_skill_files": 23,
+    "expected_package_files": 24,
+    "actual_package_files": 24,
+    "contains_status": true,
+    "unsafe_members": [],
+    "duplicate_members": false
+  },
+  "member_checks": [
+    {
+      "path": "DeepSilencer-agent/STATUS.md",
+      "bytes": 933,
+      "sha256": "f5a9195caf9f48715d8e341e17e2c2cfb2b60b1917628cddb5da7f39fd97eb1a",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/SKILL.md",
+      "bytes": 1736,
+      "sha256": "5218d0aa9853658885b34bfaf403759e7598747d4dd90b16b34d6e4ec506290c",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/assets/figure/contrastive-loss.jpg",
+      "bytes": 3806,
+      "sha256": "17323d788cfa876bb9aef9968b2a7f7be72b77e59815b8fcd3697e206a23c664",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/assets/figure/figure-1.jpg",
+      "bytes": 39452,
+      "sha256": "6e40de260c869c9dea0132d0b396f2c47d6195d9ef51e649a8a5c49b9edce104",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/assets/figure/figure-2.jpg",
+      "bytes": 67822,
+      "sha256": "795cc96a0125bf4ffbc59d35e05b5c7295f6338baa80c3be1b5a7680368cf3cd",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/assets/figure/figure-3.jpg",
+      "bytes": 52416,
+      "sha256": "324333357934a0a216e7e80f924093c068eeba2d4d7dffddbcdc2b6637db522d",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/assets/figure/figure-4.jpg",
+      "bytes": 141066,
+      "sha256": "928e60d8b09827d9bdfe273341455a795f4de76f8be322214b99e62a178f53ff",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/assets/figure/figure-5.jpg",
+      "bytes": 114564,
+      "sha256": "431e90c6db57e366ecaf8bcbf26647d5d5bce1f6107d22a18d37321ee29f82d9",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/assets/figure/figure-6.jpg",
+      "bytes": 56477,
+      "sha256": "c7c18641e4238b8fdc5dcf4db04cf04cb9e9488177d2ade01b5516d18492125d",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/assets/figure/figure-7.jpg",
+      "bytes": 78726,
+      "sha256": "54857a4421413614c6b09c2039a134aac45abcd5387d0e8bfb89477086d768e3",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/assets/figure/formula-p0006-009.jpg",
+      "bytes": 9554,
+      "sha256": "5c2b4d4bae80e039d6476f434f8517c13e90eb5c2099281f70eeec12fd189324",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/assets/figure/predicted-difference.jpg",
+      "bytes": 8146,
+      "sha256": "bd8018f11b5348e5d696057c2215cb9be578dcb5fc67afe7b119d1bbba643548",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/assets/figure/total-loss.jpg",
+      "bytes": 3958,
+      "sha256": "1f60601790f78ed75acfd324e09ea0d06b00c6dc247876a5b2fe05d551159c71",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/assets/supp_table/hu.csv",
+      "bytes": 651719,
+      "sha256": "fa0e5ae9c9c6afa609b458bd39762f3f8f83d1de8d248262795d7ad9eef268a0",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/assets/supp_table/mix.csv",
+      "bytes": 128566,
+      "sha256": "10c34deaa5a02e5a168e6951edbd7144fe9025ad40a679c3defb8fe726620c87",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/assets/supp_table/taka.csv",
+      "bytes": 190523,
+      "sha256": "de2589970f89652dc33cdb5b4bbcdf0a28194348733bfb9974bc670d910cbe75",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/assets/table/table-1.csv",
+      "bytes": 1433,
+      "sha256": "c828d17d14ec412ee08998fce6f804cdc6f8ec8e5ee53a238d35b3b785fd7607",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/assets/table/table-2.csv",
+      "bytes": 369,
+      "sha256": "1d7a71901e5094bd188be6c8f142491a424d78c24cbdad434c375d3dd53cebd9",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/assets/table/table-3.csv",
+      "bytes": 290,
+      "sha256": "a4793288e38f7de6d8e11f9b3ca92ccfa499d4d4d98aa41bbcd3ba69d5c897fe",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/assets/table/table-4.csv",
+      "bytes": 109,
+      "sha256": "e08af3f4c5ae35a2fcaaa9f3af31352e2024971f75216f9911682fe3c43bbe10",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/assets/table/table-5.jpg",
+      "bytes": 89357,
+      "sha256": "cb5d4c059fd68eed56e303ce3be6776b6fde041aa0b3ea9f8abb64a8ce391a5a",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/references/index.md",
+      "bytes": 2023,
+      "sha256": "582843bb5229db03cd625d210c5d21d9c61d83b15f37fd83df46f6932a708138",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/references/paper.md",
+      "bytes": 52588,
+      "sha256": "58f073fa4c422d4abdbf87c357991f3f9f73282c7be9403df1d5f53ee69a0691",
+      "matches_delivered_folder": true
+    },
+    {
+      "path": "DeepSilencer-agent/skill/deepsilencer-paper/references/supplement.md",
+      "bytes": 1698,
+      "sha256": "53ece0590cb56daa1203065081de0860f5c836127008971281b1f2d1e819b763",
+      "matches_delivered_folder": true
+    }
+  ],
+  "relocated_markdown_links": [
+    {
+      "markdown": "skill/deepsilencer-paper/SKILL.md",
+      "link": "references/index.md",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/supplement.md",
+      "link": "../assets/supp_table/hu.csv",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/supplement.md",
+      "link": "../assets/supp_table/mix.csv",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/supplement.md",
+      "link": "../assets/supp_table/taka.csv",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/index.md",
+      "link": "paper.md",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/index.md",
+      "link": "supplement.md",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/paper.md",
+      "link": "../assets/table/table-1.csv",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/paper.md",
+      "link": "../assets/figure/formula-p0006-009.jpg",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/paper.md",
+      "link": "../assets/figure/predicted-difference.jpg",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/paper.md",
+      "link": "../assets/figure/contrastive-loss.jpg",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/paper.md",
+      "link": "../assets/figure/total-loss.jpg",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/paper.md",
+      "link": "../assets/figure/figure-1.jpg",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/paper.md",
+      "link": "../assets/figure/figure-2.jpg",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/paper.md",
+      "link": "../assets/figure/figure-3.jpg",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/paper.md",
+      "link": "../assets/table/table-2.csv",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/paper.md",
+      "link": "../assets/table/table-3.csv",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/paper.md",
+      "link": "../assets/table/table-4.csv",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/paper.md",
+      "link": "../assets/figure/figure-4.jpg",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/paper.md",
+      "link": "../assets/figure/figure-5.jpg",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/paper.md",
+      "link": "../assets/figure/figure-6.jpg",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/paper.md",
+      "link": "../assets/table/table-5.jpg",
+      "target_exists": true,
+      "within_package": true
+    },
+    {
+      "markdown": "skill/deepsilencer-paper/references/paper.md",
+      "link": "../assets/figure/figure-7.jpg",
+      "target_exists": true,
+      "within_package": true
+    }
+  ],
+  "skill_entry_point_usable": true,
+  "skill_has_no_draft_marker": true,
+  "csv_checks": [
+    {
+      "path": "skill/deepsilencer-paper/assets/supp_table/hu.csv",
+      "data_rows": 2361,
+      "header": [
+        "siRNA",
+        "mRNA",
+        "label",
+        "y",
+        "td"
+      ],
+      "all_row_widths_5": true,
+      "success": true
+    },
+    {
+      "path": "skill/deepsilencer-paper/assets/supp_table/mix.csv",
+      "data_rows": 472,
+      "header": [
+        "siRNA",
+        "mRNA",
+        "label",
+        "y",
+        "td"
+      ],
+      "all_row_widths_5": true,
+      "success": true
+    },
+    {
+      "path": "skill/deepsilencer-paper/assets/supp_table/taka.csv",
+      "data_rows": 702,
+      "header": [
+        "siRNA",
+        "mRNA",
+        "label",
+        "y",
+        "td"
+      ],
+      "all_row_widths_5": true,
+      "success": true
+    }
+  ],
+  "root_verifier": {
+    "command": [
+      "python3",
+      "scripts/verify_delivery.py"
+    ],
+    "exit_code": 0,
+    "stdout": "PASS: 35 file hashes, local skill links, three complete CSVs, and archive bytes.\nScope: reading-package integrity. DeepSilencer model execution remains unavailable.\n",
+    "stderr": ""
+  },
+  "review_evidence_read": {
+    "verification/paper-review.json": {
+      "sha256": "ce318e19b951878e11b4c552cc4569ef8ce1c47289f43a5f8a9548b42129ebcd",
+      "status": "reviewed_with_limitations",
+      "mechanical_ok": true,
+      "all_sources_agent_reviewed": true,
+      "issues": []
+    },
+    "verification/independent-paper-review.md": {
+      "sha256": "7df61c2d38e80ade6948db17bb81fadb0141f3ca7ca57cc2a996ffae768b9973",
+      "assessment": "Independent source/assembled review documents repaired reading-order/notation issues, all 24 pages surveyed, final crops inspected, associated CSV fidelity, no remaining substantive omission identified, and retrieval test. Limitations retained."
+    }
+  },
+  "delivery_status": "partial_paper_reading_complete_mcp_blocked",
+  "limitations": [
+    "No upstream DeepSilencer implementation or trained model artifacts; no prediction, training, evaluation, MCP tools, clean-runtime calls, MCP ZIP acceptance, or reproduction claim.",
+    "This verifier reviewed delivery bytes, structure, navigation, and existing paper review evidence; did not repeat full independent visual comparison of all original PDF pages.",
+    "Original review retains source-resolution limitations; Table 5 is an image; thermodynamic feature semantics lack authoritative implementation metadata.",
+    "Successful portable reading-package delivery does not establish validity of paper scientific claims or biological measurements."
+  ],
+  "failures": []
+}

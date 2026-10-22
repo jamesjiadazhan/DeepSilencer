@@ -1,0 +1,175 @@
+{
+  "scan_metadata": {
+    "repository_name": "DeepSilencer",
+    "repository_url": "https://github.com/BlackCattt9/DeepSilencer",
+    "commit": "0e43907220e61e75c414ac3f9fcab4ee80c9ae82",
+    "paper_url": "https://arxiv.org/html/2503.04200v1",
+    "scan_date": "2026-10-22T11:23:15Z",
+    "agent_id": "/root/source_scan",
+    "evaluated_source_files": 4,
+    "included_source_files": 0,
+    "success": false,
+    "status": "blocked",
+    "explanation": "Pinned complete recursive tree contains README.md and three CSV datasets, with no executable implementation, model weights, API, CLI, tutorial or tests. README says the code will be uploaded."
+  },
+  "tutorials": [
+    {
+      "path": "README.md",
+      "title": "DeepSilencer README",
+      "description": "Dataset provenance and future-code notice",
+      "type": "markdown",
+      "include_in_tools": false,
+      "reason_for_include_or_exclude": "Documents provenance but contains no executable source; future upload notice is not an implementation.",
+      "blob_sha": "d7c11716b2ab1d8772633a7a9899b4dad5506d77",
+      "size_bytes": 995
+    },
+    {
+      "path": "data/Hu.csv",
+      "title": "data/Hu.csv",
+      "description": "Published upstream dataset",
+      "type": "data",
+      "include_in_tools": false,
+      "reason_for_include_or_exclude": "Static input data without the DeepSilencer model implementation cannot supply an existing scientific operation.",
+      "blob_sha": "bc5ef20f0dd47363e37c98362072b7e7bae44a87",
+      "size_bytes": 651719
+    },
+    {
+      "path": "data/Mix.csv",
+      "title": "data/Mix.csv",
+      "description": "Published upstream dataset",
+      "type": "data",
+      "include_in_tools": false,
+      "reason_for_include_or_exclude": "Static input data without the DeepSilencer model implementation cannot supply an existing scientific operation.",
+      "blob_sha": "500d9fab45cfc00f87997e63e35be0aeb664be33",
+      "size_bytes": 128566
+    },
+    {
+      "path": "data/Taka.csv",
+      "title": "data/Taka.csv",
+      "description": "Published upstream dataset",
+      "type": "data",
+      "include_in_tools": false,
+      "reason_for_include_or_exclude": "Static input data without the DeepSilencer model implementation cannot supply an existing scientific operation.",
+      "blob_sha": "9bd01b41ed33207fd9d1fa2e7d1b9c9644c5c374",
+      "size_bytes": 190523
+    }
+  ],
+  "tool_review": [
+    {
+      "task": "Predict siRNA efficacy using DeepSilencer",
+      "decision": "defer",
+      "reason": "No model inference implementation or weights in pinned repository",
+      "implementation": null,
+      "verification_source": null,
+      "inputs": "New siRNA sequence(s) and any source-defined model inputs; executable contract unavailable",
+      "outputs": "Paper-intended efficacy prediction; no upstream callable result available",
+      "ownership": null
+    },
+    {
+      "task": "Train or evaluate DeepSilencer on published datasets",
+      "decision": "defer",
+      "reason": "CSV datasets exist but no training/evaluation code, dependency metadata, split procedure or executable reference",
+      "implementation": null,
+      "verification_source": null,
+      "inputs": [
+        "data/Hu.csv",
+        "data/Mix.csv",
+        "data/Taka.csv"
+      ],
+      "outputs": "Model and reported evaluation metrics; no runnable upstream verification basis",
+      "ownership": null
+    },
+    {
+      "task": "Load or summarize published CSV files",
+      "decision": "omit",
+      "reason": "Generic data loading is incidental to scientific task and would manufacture a tool inventory without an upstream research implementation",
+      "implementation": null,
+      "verification_source": null,
+      "ownership": null
+    }
+  ],
+  "source_evidence": {
+    "tree_url": "https://api.github.com/repos/BlackCattt9/DeepSilencer/git/trees/0e43907220e61e75c414ac3f9fcab4ee80c9ae82?recursive=1",
+    "tree_truncated": false,
+    "tree": {
+      "sha": "0e43907220e61e75c414ac3f9fcab4ee80c9ae82",
+      "url": "https://api.github.com/repos/BlackCattt9/DeepSilencer/git/trees/0e43907220e61e75c414ac3f9fcab4ee80c9ae82",
+      "tree": [
+        {
+          "path": "README.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d7c11716b2ab1d8772633a7a9899b4dad5506d77",
+          "size": 995,
+          "url": "https://api.github.com/repos/BlackCattt9/DeepSilencer/git/blobs/d7c11716b2ab1d8772633a7a9899b4dad5506d77"
+        },
+        {
+          "path": "data",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "d179e64936d3c38f0a420db28f17895877b7f360",
+          "url": "https://api.github.com/repos/BlackCattt9/DeepSilencer/git/trees/d179e64936d3c38f0a420db28f17895877b7f360"
+        },
+        {
+          "path": "data/Hu.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bc5ef20f0dd47363e37c98362072b7e7bae44a87",
+          "size": 651719,
+          "url": "https://api.github.com/repos/BlackCattt9/DeepSilencer/git/blobs/bc5ef20f0dd47363e37c98362072b7e7bae44a87"
+        },
+        {
+          "path": "data/Mix.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "500d9fab45cfc00f87997e63e35be0aeb664be33",
+          "size": 128566,
+          "url": "https://api.github.com/repos/BlackCattt9/DeepSilencer/git/blobs/500d9fab45cfc00f87997e63e35be0aeb664be33"
+        },
+        {
+          "path": "data/Taka.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9bd01b41ed33207fd9d1fa2e7d1b9c9644c5c374",
+          "size": 190523,
+          "url": "https://api.github.com/repos/BlackCattt9/DeepSilencer/git/blobs/9bd01b41ed33207fd9d1fa2e7d1b9c9644c5c374"
+        }
+      ],
+      "truncated": false
+    },
+    "readme": {
+      "url": "https://github.com/BlackCattt9/DeepSilencer/blob/0e43907220e61e75c414ac3f9fcab4ee80c9ae82/README.md",
+      "blob_sha": "d7c11716b2ab1d8772633a7a9899b4dad5506d77",
+      "content": "# DeepSilencer\n\n## Datasets\n\nThe datasets used in this article are sourced from the compiled datasets of [OligoFormer: An accurate and robust prediction method for siRNA design](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btae577/7775419), which you can access from [github/OligoFormer](https://github.com/lulab/OligoFormer). These datasets compile nine datasets from the studies by [Huesken](https://www.nature.com/articles/nbt1118), [Takayuki](https://academic.oup.com/nar/article/35/4/e27/1079934), [Amarzguioui](https://pubmed.ncbi.nlm.nih.gov/12527766/), [Haborth](https://www.liebertpub.com/doi/10.1089/108729003321629638),  [Khvorova, Reynolds](https://www.nature.com/articles/nbt936), [Vickers](https://www.jbc.org/article/S0021-9258(19)32641-9/fulltext), [UiTei](https://academic.oup.com/nar/article/32/3/936/2904484?login=false) and [Hsieh](https://academic.oup.com/nar/article/32/3/893/2904476).\n\n\n## Code\n\nwe will organize and upload the code.\n"
+    },
+    "branches": [
+      {
+        "name": "main",
+        "commit": {
+          "sha": "0e43907220e61e75c414ac3f9fcab4ee80c9ae82",
+          "url": "https://api.github.com/repos/BlackCattt9/DeepSilencer/commits/0e43907220e61e75c414ac3f9fcab4ee80c9ae82"
+        },
+        "protected": false
+      }
+    ],
+    "releases": [],
+    "tags": {
+      "status": "not_verified",
+      "reason": "GitHub connector rejected tags endpoint as unsupported; no claim about tags is made."
+    }
+  },
+  "verification": {
+    "method": "Independent GitHub connector fetches of pinned recursive tree and README; current branch and release collections",
+    "source_execution": "not_run_missing_implementation",
+    "mcp_runtime": "not_implemented",
+    "scientific_validation": "not_run",
+    "completion_markers_written": []
+  },
+  "unblocking_requirements": [
+    "Author-supplied executable DeepSilencer implementation with a clear callable/script entry point",
+    "Source-supported dependencies, pretrained weights where needed, input/output contract, and reference invocation/results",
+    "Licensing or redistribution authorization appropriate to planned distribution"
+  ],
+  "finished_at": "2026-10-22T11:23:15Z"
+}
+

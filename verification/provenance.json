@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "title": "DeepSilencer: A Novel Deep Learning Model for Predicting siRNA Knockdown Efficiency",
+    "arxiv_id": "2503.04200v1",
+    "url": "https://arxiv.org/html/2503.04200v1",
+    "pdf_sha256": "cfe4619184f8b4f137e5c30d1d856b756b14f7922a50aacd1542a6bec78dd3f3"
+  },
+  "upstream": {
+    "repository": "https://github.com/BlackCattt9/DeepSilencer",
+    "commit": "0e43907220e61e75c414ac3f9fcab4ee80c9ae82",
+    "retrieval": "GitHub connector, all four source Git blob hashes checked",
+    "source_manifest": "source-files.json"
+  },
+  "workflow": {
+    "name": "paper2agent",
+    "instructions_sha256": {
+      "SKILL.md": "69a5525de0cc115ebbef1cdd602a4cfda1836399adc44a154907d07c95f4244d",
+      "paper2skill/SKILL.md": "e05b34ab5a6d59f4c18da1323c845af296b8fd73dc3613d193e72287b593c043",
+      "paper2mcp/SKILL.md": "58ef21d750f3a332ce5f9cd73b02894679009b6eccb31ca6afa57f563acf5932",
+      "paper2skill/scripts/paper_bundle.py": "395f233e7a45246e7d6a908dc9ae26b8b5198bccf9b699f91bfba183a20dc4dd",
+      "paper2skill/scripts/pdf_to_skill.py": "a427d0908416dc371216ecab2d30a5400c96701b723bce16a06621c8ea8784cd"
+    }
+  },
+  "mcp": {
+    "status": "blocked",
+    "reason": "No executable source or model artifacts in the inspected upstream repository",
+    "selected_tools": [],
+    "runtime_validation_performed": false
+  },
+  "publication_scope": "Reading skill, associated CSVs, conversion verification, source provenance, and integrity-check script. External review/development workspace and original PDF are not in the delivery archive."
+}

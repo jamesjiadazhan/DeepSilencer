@@ -1,0 +1,64 @@
+{
+  "repository": "https://github.com/BlackCattt9/DeepSilencer",
+  "commit": "0e43907220e61e75c414ac3f9fcab4ee80c9ae82",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 995,
+      "git_blob_sha1": "d7c11716b2ab1d8772633a7a9899b4dad5506d77",
+      "sha256": "9753f809e9ed484f32a1070e1d891d90c13fac128ae26d30c630cf53fedc6ee2"
+    },
+    {
+      "path": "data/Hu.csv",
+      "bytes": 651719,
+      "git_blob_sha1": "bc5ef20f0dd47363e37c98362072b7e7bae44a87",
+      "sha256": "fa0e5ae9c9c6afa609b458bd39762f3f8f83d1de8d248262795d7ad9eef268a0",
+      "rows_including_header": 2362,
+      "header": [
+        "siRNA",
+        "mRNA",
+        "label",
+        "y",
+        "td"
+      ],
+      "row_width_counts": {
+        "5": 2362
+      }
+    },
+    {
+      "path": "data/Mix.csv",
+      "bytes": 128566,
+      "git_blob_sha1": "500d9fab45cfc00f87997e63e35be0aeb664be33",
+      "sha256": "10c34deaa5a02e5a168e6951edbd7144fe9025ad40a679c3defb8fe726620c87",
+      "rows_including_header": 473,
+      "header": [
+        "siRNA",
+        "mRNA",
+        "label",
+        "y",
+        "td"
+      ],
+      "row_width_counts": {
+        "5": 473
+      }
+    },
+    {
+      "path": "data/Taka.csv",
+      "bytes": 190523,
+      "git_blob_sha1": "9bd01b41ed33207fd9d1fa2e7d1b9c9644c5c374",
+      "sha256": "de2589970f89652dc33cdb5b4bbcdf0a28194348733bfb9974bc670d910cbe75",
+      "rows_including_header": 703,
+      "header": [
+        "siRNA",
+        "mRNA",
+        "label",
+        "y",
+        "td"
+      ],
+      "row_width_counts": {
+        "5": 703
+      }
+    }
+  ],
+  "all_git_blob_hashes_match": true
+}

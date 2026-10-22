@@ -1,0 +1,414 @@
+{
+  "agent_id": "/root/source_scan",
+  "reviewed_at": "2026-10-22T11:28:38.125897Z",
+  "repository": "https://github.com/BlackCattt9/DeepSilencer",
+  "commit": "0e43907220e61e75c414ac3f9fcab4ee80c9ae82",
+  "method": "Read complete file bytes and every record using Python standard-library csv.reader(strict=True); independently calculate Git blob SHA-1 and SHA-256, compare pinned connector tree and both local manifests. Counts exclude header unless stated. No files transformed.",
+  "files": [
+    {
+      "path": "data/Hu.csv",
+      "byte_count": 651719,
+      "sha256": "fa0e5ae9c9c6afa609b458bd39762f3f8f83d1de8d248262795d7ad9eef268a0",
+      "git_blob_sha1": "bc5ef20f0dd47363e37c98362072b7e7bae44a87",
+      "pinned_tree_blob_matches": true,
+      "pinned_tree_size_matches": true,
+      "manifest_checks": {
+        "mcp-work/reports/source-files.json": {
+          "bytes_match": true,
+          "git_blob_sha1_match": true,
+          "sha256_match": true,
+          "header_match": true,
+          "rows_including_header_match": true,
+          "row_width_counts_match": true
+        },
+        "verification/source-files.json": {
+          "bytes_match": true,
+          "git_blob_sha1_match": true,
+          "sha256_match": true,
+          "header_match": true,
+          "rows_including_header_match": true,
+          "row_width_counts_match": true
+        }
+      },
+      "header": [
+        "siRNA",
+        "mRNA",
+        "label",
+        "y",
+        "td"
+      ],
+      "data_rows": 2361,
+      "rows_including_header": 2362,
+      "row_width_counts": {
+        "5": 2361
+      },
+      "malformed_row_numbers": [],
+      "empty_string_counts": {
+        "siRNA": 0,
+        "mRNA": 0,
+        "label": 0,
+        "y": 0,
+        "td": 0
+      },
+      "whitespace_only_counts": {
+        "siRNA": 0,
+        "mRNA": 0,
+        "label": 0,
+        "y": 0,
+        "td": 0
+      },
+      "na_like_token_counts": {
+        "siRNA": {},
+        "mRNA": {},
+        "label": {},
+        "y": {},
+        "td": {}
+      },
+      "duplicate_complete_rows": 0,
+      "sequences": {
+        "siRNA": {
+          "length_counts": {
+            "19": 2361
+          },
+          "character_counts": {
+            "A": 10227,
+            "C": 11137,
+            "G": 11457,
+            "U": 12038
+          },
+          "unique_values": 2361,
+          "duplicate_values": 0,
+          "records_containing_X": 0,
+          "characters_outside_ACGUX": []
+        },
+        "mRNA": {
+          "length_counts": {
+            "57": 2361
+          },
+          "character_counts": {
+            "A": 35619,
+            "C": 34031,
+            "G": 33093,
+            "U": 30449,
+            "X": 1385
+          },
+          "unique_values": 2361,
+          "duplicate_values": 0,
+          "records_containing_X": 165,
+          "characters_outside_ACGUX": []
+        }
+      },
+      "numeric_columns": {
+        "label": {
+          "parse_errors_at_csv_rows": [],
+          "nonfinite_at_csv_rows": [],
+          "min": 0.0,
+          "max": 1.0,
+          "unique_value_count": 786
+        },
+        "y": {
+          "parse_errors_at_csv_rows": [],
+          "nonfinite_at_csv_rows": [],
+          "min": 0.0,
+          "max": 1.0,
+          "unique_value_count": 2,
+          "value_counts": {
+            "0": 1187,
+            "1": 1174
+          }
+        }
+      },
+      "td": {
+        "observed_encoding": "Single CSV string field containing comma-separated numerical components",
+        "component_count_distribution": {
+          "24": 2361
+        },
+        "parse_errors_at_csv_rows": [],
+        "nonfinite_at_csv_rows": [],
+        "observed_component_global_min": -229.99999999999997,
+        "observed_component_global_max": 2.49,
+        "feature_names_units_and_generation_code": "Unavailable in pinned repository; numerical parseability does not validate scientific meaning."
+      },
+      "observed_y_label_relation": {
+        "y1_min_label": 0.5219985085756897,
+        "y0_max_label": 0.5212527964205816,
+        "note": "Descriptive observed extrema only; no threshold definition inferred."
+      }
+    },
+    {
+      "path": "data/Mix.csv",
+      "byte_count": 128566,
+      "sha256": "10c34deaa5a02e5a168e6951edbd7144fe9025ad40a679c3defb8fe726620c87",
+      "git_blob_sha1": "500d9fab45cfc00f87997e63e35be0aeb664be33",
+      "pinned_tree_blob_matches": true,
+      "pinned_tree_size_matches": true,
+      "manifest_checks": {
+        "mcp-work/reports/source-files.json": {
+          "bytes_match": true,
+          "git_blob_sha1_match": true,
+          "sha256_match": true,
+          "header_match": true,
+          "rows_including_header_match": true,
+          "row_width_counts_match": true
+        },
+        "verification/source-files.json": {
+          "bytes_match": true,
+          "git_blob_sha1_match": true,
+          "sha256_match": true,
+          "header_match": true,
+          "rows_including_header_match": true,
+          "row_width_counts_match": true
+        }
+      },
+      "header": [
+        "siRNA",
+        "mRNA",
+        "label",
+        "y",
+        "td"
+      ],
+      "data_rows": 472,
+      "rows_including_header": 473,
+      "row_width_counts": {
+        "5": 472
+      },
+      "malformed_row_numbers": [],
+      "empty_string_counts": {
+        "siRNA": 0,
+        "mRNA": 0,
+        "label": 0,
+        "y": 0,
+        "td": 0
+      },
+      "whitespace_only_counts": {
+        "siRNA": 0,
+        "mRNA": 0,
+        "label": 0,
+        "y": 0,
+        "td": 0
+      },
+      "na_like_token_counts": {
+        "siRNA": {},
+        "mRNA": {},
+        "label": {},
+        "y": {},
+        "td": {}
+      },
+      "duplicate_complete_rows": 0,
+      "sequences": {
+        "siRNA": {
+          "length_counts": {
+            "19": 472
+          },
+          "character_counts": {
+            "A": 1883,
+            "C": 2394,
+            "G": 2043,
+            "U": 2648
+          },
+          "unique_values": 464,
+          "duplicate_values": 8,
+          "records_containing_X": 0,
+          "characters_outside_ACGUX": []
+        },
+        "mRNA": {
+          "length_counts": {
+            "57": 472
+          },
+          "character_counts": {
+            "A": 7685,
+            "C": 6327,
+            "G": 7430,
+            "U": 5439,
+            "X": 23
+          },
+          "unique_values": 464,
+          "duplicate_values": 8,
+          "records_containing_X": 3,
+          "characters_outside_ACGUX": []
+        }
+      },
+      "numeric_columns": {
+        "label": {
+          "parse_errors_at_csv_rows": [],
+          "nonfinite_at_csv_rows": [],
+          "min": 0.0,
+          "max": 1.0,
+          "unique_value_count": 304
+        },
+        "y": {
+          "parse_errors_at_csv_rows": [],
+          "nonfinite_at_csv_rows": [],
+          "min": 0.0,
+          "max": 1.0,
+          "unique_value_count": 2,
+          "value_counts": {
+            "0": 231,
+            "1": 241
+          }
+        }
+      },
+      "td": {
+        "observed_encoding": "Single CSV string field containing comma-separated numerical components",
+        "component_count_distribution": {
+          "24": 472
+        },
+        "parse_errors_at_csv_rows": [],
+        "nonfinite_at_csv_rows": [],
+        "observed_component_global_min": -223.56999999999996,
+        "observed_component_global_max": 2.49,
+        "feature_names_units_and_generation_code": "Unavailable in pinned repository; numerical parseability does not validate scientific meaning."
+      },
+      "observed_y_label_relation": {
+        "y1_min_label": 0.7,
+        "y0_max_label": 0.8947368421052632,
+        "note": "Descriptive observed extrema only; no threshold definition inferred."
+      }
+    },
+    {
+      "path": "data/Taka.csv",
+      "byte_count": 190523,
+      "sha256": "de2589970f89652dc33cdb5b4bbcdf0a28194348733bfb9974bc670d910cbe75",
+      "git_blob_sha1": "9bd01b41ed33207fd9d1fa2e7d1b9c9644c5c374",
+      "pinned_tree_blob_matches": true,
+      "pinned_tree_size_matches": true,
+      "manifest_checks": {
+        "mcp-work/reports/source-files.json": {
+          "bytes_match": true,
+          "git_blob_sha1_match": true,
+          "sha256_match": true,
+          "header_match": true,
+          "rows_including_header_match": true,
+          "row_width_counts_match": true
+        },
+        "verification/source-files.json": {
+          "bytes_match": true,
+          "git_blob_sha1_match": true,
+          "sha256_match": true,
+          "header_match": true,
+          "rows_including_header_match": true,
+          "row_width_counts_match": true
+        }
+      },
+      "header": [
+        "siRNA",
+        "mRNA",
+        "label",
+        "y",
+        "td"
+      ],
+      "data_rows": 702,
+      "rows_including_header": 703,
+      "row_width_counts": {
+        "5": 702
+      },
+      "malformed_row_numbers": [],
+      "empty_string_counts": {
+        "siRNA": 0,
+        "mRNA": 0,
+        "label": 0,
+        "y": 0,
+        "td": 0
+      },
+      "whitespace_only_counts": {
+        "siRNA": 0,
+        "mRNA": 0,
+        "label": 0,
+        "y": 0,
+        "td": 0
+      },
+      "na_like_token_counts": {
+        "siRNA": {},
+        "mRNA": {},
+        "label": {},
+        "y": {},
+        "td": {}
+      },
+      "duplicate_complete_rows": 0,
+      "sequences": {
+        "siRNA": {
+          "length_counts": {
+            "19": 702
+          },
+          "character_counts": {
+            "A": 3177,
+            "C": 4524,
+            "G": 3745,
+            "U": 1892
+          },
+          "unique_values": 702,
+          "duplicate_values": 0,
+          "records_containing_X": 0,
+          "characters_outside_ACGUX": []
+        },
+        "mRNA": {
+          "length_counts": {
+            "57": 702
+          },
+          "character_counts": {
+            "A": 5622,
+            "C": 11061,
+            "G": 13448,
+            "U": 9503,
+            "X": 380
+          },
+          "unique_values": 702,
+          "duplicate_values": 0,
+          "records_containing_X": 38,
+          "characters_outside_ACGUX": []
+        }
+      },
+      "numeric_columns": {
+        "label": {
+          "parse_errors_at_csv_rows": [],
+          "nonfinite_at_csv_rows": [],
+          "min": 0.0,
+          "max": 1.0,
+          "unique_value_count": 663
+        },
+        "y": {
+          "parse_errors_at_csv_rows": [],
+          "nonfinite_at_csv_rows": [],
+          "min": 0.0,
+          "max": 1.0,
+          "unique_value_count": 2,
+          "value_counts": {
+            "0": 526,
+            "1": 176
+          }
+        }
+      },
+      "td": {
+        "observed_encoding": "Single CSV string field containing comma-separated numerical components",
+        "component_count_distribution": {
+          "24": 702
+        },
+        "parse_errors_at_csv_rows": [],
+        "nonfinite_at_csv_rows": [],
+        "observed_component_global_min": -223.96,
+        "observed_component_global_max": 2.49,
+        "feature_names_units_and_generation_code": "Unavailable in pinned repository; numerical parseability does not validate scientific meaning."
+      },
+      "observed_y_label_relation": {
+        "y1_min_label": 0.7146647617103786,
+        "y0_max_label": 0.7143586080212267,
+        "note": "Descriptive observed extrema only; no threshold definition inferred."
+      }
+    }
+  ],
+  "cross_dataset_siRNA_overlap_counts": {
+    "data/Hu.csv | data/Mix.csv": 0,
+    "data/Hu.csv | data/Taka.csv": 0,
+    "data/Mix.csv | data/Taka.csv": 0
+  },
+  "all_fidelity_checks_pass": true,
+  "structural_csv_checks_pass": true,
+  "limitations": [
+    "Byte fidelity and structural parsing establish the received dataset snapshot, not correctness of experimental measurements or publication results.",
+    "No DeepSilencer code, feature-generation code, official schema, trained weights, or evaluation splits are present in the pinned repository.",
+    "Column meanings, label normalization, binary-label threshold, td feature names and units, and X-padding interpretation require authoritative metadata; values were observed without enforcing a guessed schema.",
+    "No data imputation, deduplication, filtering, reformatting, or sequence correction was performed.",
+    "Dataset redistribution license and experimental consent scope are outside this structural inspection.",
+    "MCP inference, training, and evaluation remain blocked by missing implementation."
+  ]
+}
